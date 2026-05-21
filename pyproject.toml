@@ -1,0 +1,8 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "appyqt"
+version = "0.1.0"
+description = "Check GitHub page at github.com/ApplePair111/appyqt"
