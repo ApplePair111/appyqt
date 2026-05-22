@@ -3,7 +3,7 @@ import sys
 
 print("Welcome to APPYQQT! GitHub: https://github.com/ApplePair111/appyqt")
 
-sys.modules.pop(__name__)  # remove from cache, forces re-run next import
+# sys.modules.pop(__name__)  # remove from cache, forces re-run next import
 
 def addTool(path: str):
     # "functions.math.equations" -> from mylib.functions.math.equations import *
