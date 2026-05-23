@@ -1,7 +1,7 @@
 import importlib
 import sys
 
-print("Welcome to APPYQQT! GitHub: https://github.com/ApplePair111/appyqt")
+print("Welcome to APPYQT! GitHub: https://github.com/ApplePair111/appyqt")
 
 # sys.modules.pop(__name__)  # remove from cache, forces re-run next import
 
