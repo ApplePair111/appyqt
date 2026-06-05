@@ -82,7 +82,7 @@ def prompt(prompt: str, placeholder: str = ""):
     Prompt for a message from user like input() but look nicer and support placeholders. Placeholder is optional!!
     """
 
-    print(f"❯ {prompt}{term.dim(placeholder)}")
+    input(f"❯ {prompt} ❯ {term.dim(placeholder)}❯ ")
     print(f'\n{term.dim("Enter to confirm · Esc to cancel")}')
 
     key = term.inkey()
