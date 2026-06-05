@@ -6,3 +6,6 @@ build-backend = "setuptools.build_meta"
 name = "appyqt"
 version = "0.1.0"
 description = "Check GitHub page at github.com/ApplePair111/appyqt"
+dependencies = [
+    "blessed==1.44.0"
+]
