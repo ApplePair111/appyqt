@@ -79,12 +79,11 @@ def stopLoadingCircle():
 
 def prompt(prompt: str, placeholder: str = ""):
     """
-    Show an interactive menu with options and an Other option. If choice exists, returns choice index from list in args. For example, menu("Example", ["choice 1", "choice 2"]) returns 0 if choice 1, returns 1 if choice 2. Returns None if escaped or interrupted.
+    Prompt for a message from user like input() but look nicer and support placeholders. Placeholder is optional!!
     """
 
-    print("")
+    print(f"❯ {prompt}{term.dim(placeholder)}")
     print(f'\n{term.dim("Enter to confirm · Esc to cancel")}')
 
     key = term.inkey()
-    if key == '\n' or key.code == term.KEY_ENTER:
     if key.code == term.KEY_ESCAPE: return None
