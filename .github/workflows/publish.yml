@@ -31,6 +31,7 @@ jobs:
           TWINE_PASSWORD: ${{ secrets.TEST_PYPI_TOKEN }}
 
       - name: Upload to PyPI
+        if: ${{ !contains(github.ref_name, 'a') && !contains(github.ref_name, 'b') && !contains(github.ref_name, 'rc') && !contains(github.ref_name, 'dev') }}
         run: twine upload dist/*
         env:
           TWINE_USERNAME: __token__
