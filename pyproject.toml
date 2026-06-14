@@ -4,8 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "appyqt"
-version = "0.1.0"
-description = "Check GitHub page at github.com/ApplePair111/appyqt"
+version = "1.0b2"
+description = "Check GitHub page at github.com/ApplePair111/appyqt. ⚠️ Library is on prerelease! I suggest waiting for stable! ⚠️"
+
 dependencies = [
-    "blessed==1.44.0"
+    "blessed==1.44.0",
+    "cryptography==48.0.0"
 ]

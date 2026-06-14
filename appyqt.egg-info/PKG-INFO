@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: appyqt
+Version: 0.1.0
+Summary: Check GitHub page at github.com/ApplePair111/appyqt
+License-File: LICENSE
+Requires-Dist: blessed==1.44.0
+Dynamic: license-file
