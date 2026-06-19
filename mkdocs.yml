@@ -1,0 +1,5 @@
+site_name: APPYQT
+theme:
+  name: readthedocs
+nav:
+  - Home: index.md
