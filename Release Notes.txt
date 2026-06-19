@@ -1,0 +1,3 @@
+--- Release Notes ---
+
+Removed async as threading is an alternative and also because it's unreliable. Also created release notes file. Testing needed but features are solid!

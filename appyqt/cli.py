@@ -47,7 +47,7 @@ def LoadingCircleBackend(text, useSmall):
         for char in pattern:
             if stopLoading.is_set():
                 break
-            sys.stdout.write(f"\r{char}   {text}")
+            sys.stdout.write(f"\r\n\n{char}   {text}\n\n")
             sys.stdout.flush()
             time.sleep(0.08)
     sys.stdout.write("\r" + " " * (len(text) + 6) + "\r")
