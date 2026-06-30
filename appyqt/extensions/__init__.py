@@ -1,1 +1,1 @@
-"""Some extensions for libs."""
+"""Some extensions for other libararies."""
